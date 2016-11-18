@@ -1,6 +1,7 @@
 # phperf/cli-spark, `▁▂▃▄▂█` spark line charts for your CLI app
 
 A PHP-embeddable port of https://github.com/holman/spark
+
 [![Build Status](https://travis-ci.org/phperf/cli-spark.svg?branch=master)](https://travis-ci.org/phperf/cli-spark)
 
 ## Install
