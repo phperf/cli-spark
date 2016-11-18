@@ -2,8 +2,9 @@
 
 namespace Sparkline\Tests;
 
-
 use Sparkline\Spark;
+
+require_once __DIR__ . '/../src/Spark.php';
 
 class Test extends \PHPUnit_Framework_TestCase
 {
