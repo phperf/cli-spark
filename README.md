@@ -1,4 +1,4 @@
-# phperf/cli-spark, ▁▂▃▄▂█ spark line charts for your CLI app
+# phperf/cli-spark, `▁▂▃▄▂█` spark line charts for your CLI app
 
 A PHP-embeddable port of https://github.com/holman/spark
 
