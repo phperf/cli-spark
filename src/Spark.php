@@ -5,10 +5,14 @@ namespace Sparkline;
 
 class Spark
 {
-    public static function getString(array $items)
+    public static function getString(array $items, $min = null, $max = null)
     {
-        $min = min($items);
-        $max = max($items);
+        if (null === $min) {
+            $min = min($items);
+        }
+        if (null === $max) {
+            $max = max($items);
+        }
         $delta = $max - $min;
 
         if (!$delta) {
